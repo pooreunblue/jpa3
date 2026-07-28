@@ -119,6 +119,10 @@
                         <configuration>
                             <annotationProcessorPaths>
                                 <path>
+                                    <groupId>io.github.openfeign.querydsl</groupId>
+                                    <artifactId>querydsl-apt</artifactId>
+                                </path>
+                                <path>
                                     <groupId>org.projectlombok</groupId>
                                     <artifactId>lombok</artifactId>
                                 </path>
